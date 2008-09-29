@@ -23,15 +23,12 @@
     <profiles>
         <profile>
             <id>was</id>
+	    <activation>
+              <activeByDefault>true</activeByDefault>
+	    </activation>
             <modules>
 	      <!-- base (../) is a module to leverage profile-defined modules in base pom -->
-	      <module>../</module>
-	      <module>ear</module>
-            </modules>
-        </profile>
-        <profile>
-            <id>was-ear</id>
-            <modules>
+	      <!--<module>../</module>-->
 	      <module>ear</module>
             </modules>
         </profile>
