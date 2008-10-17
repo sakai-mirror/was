@@ -574,57 +574,6 @@
         </configuration>
       </plugin>
 
-	<!-- use the ant plugin to modify the generated EAR file to delete conflicting JARs  -->
-      <plugin>
-        <artifactId>maven-antrun-plugin</artifactId>
-        <executions>
-          <execution>
-	      <!-- run at end of package phase, after EAR is created -->
-            <phase>package</phase>
-            <configuration>
-              <tasks>
-		    <echo>Deleting JAR conflicts...</echo>
-                <unzip src="./target/sakai.ear"
-			     dest="./target/unpackedear/"
-			     overwrite="true" />
-
-		    <echo>Deleting JAR conflicts from osp-portal</echo>
-		    <unzip src="./target/unpackedear/osp-portal-2.6.0RC1-SNAPSHOT.war"
-					dest="./target/unpackedwar/"
-					overwrite="true" />
-		    <delete file="./target/unpackedwar/WEB-INF/lib/xmlParserAPIs-2.6.2.jar" />
-		    <delete file="./target/unpackedear/osp-portal-2.6.0RC1-SNAPSHOT.war" />
-		    <zip basedir="./target/unpackedwar/"
-					destfile="./target/unpackedear/osp-portal-2.6.0RC1-SNAPSHOT.war"
-					update="false" />
-		    <delete dir="./target/unpackedwar" />
-
-		    <echo>Deleting JAR conflicts from xsl-portal</echo>
-		    <unzip src="./target/unpackedear/xsl-portal-2.6.0RC1-SNAPSHOT.war"
-					dest="./target/unpackedwar/"
-					overwrite="true" />
-		    <delete file="./target/unpackedwar/WEB-INF/lib/xmlParserAPIs-2.6.2.jar" />
-		    <delete file="./target/unpackedear/xsl-portal-2.6.0RC1-SNAPSHOT.war" />
-		    <zip basedir="./target/unpackedwar/"
-					destfile="./target/unpackedear/xsl-portal-2.6.0RC1-SNAPSHOT.war"
-					update="false" />
-		    <delete dir="./target/unpackedwar" />
-
-		    <delete file="./target/sakai.ear" />
-                <zip basedir="./target/unpackedear/"
-                     destfile="./target/sakai.ear" 
-                     update="false" />
-                <delete dir="./target/unpackedear" />
-
-              </tasks>
-            </configuration>
-            <goals>
-              <goal>run</goal>
-            </goals>
-          </execution>
-        </executions>
-      </plugin>
-
     </plugins>
   </build>
 </project>
