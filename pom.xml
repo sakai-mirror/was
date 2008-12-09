@@ -10,7 +10,6 @@
       <url>http://sakaiproject.org/</url>
    </organization>
    <inceptionYear>2007</inceptionYear>
-   <version>2.6.0-SNAPSHOT</version>
 
    <!-- Sakai master pom is the parent, not the base -->
    <parent>
