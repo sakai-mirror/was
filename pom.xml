@@ -18,7 +18,7 @@
         http://docs.codehaus.org/display/MAVENUSER/MavenPropertiesGuide -->
     <properties><!-- (UPDATE WHEN IT CHANGES) -->
         <was.sakai.version>2.6.0RC1-SNAPSHOT</was.sakai.version><!-- sakai version (UPDATE WHEN IT CHANGES, and the one below) -->
-        <entitybroker.version>1.3.5-SNAPSHOT</entitybroker.version>
+        <entitybroker.version>1.3.6-SNAPSHOT</entitybroker.version>
         <poll.version>1.1-SNAPSHOT</poll.version>
         <emailtemplateservice-tool.version>0.3-SNAPSHOT</emailtemplateservice-tool.version>
         <sakai-axis2.version>0.1</sakai-axis2.version>
