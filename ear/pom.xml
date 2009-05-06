@@ -598,8 +598,24 @@
                             </fileMappers>
                             <parameters>
                                 <parameter>
-                                    <name>sakaiVersion</name>
+                                    <name>wasSakaiVersion</name>
                                     <value>${was.sakai.version}</value>
+                                </parameter>
+                                <parameter>
+                                    <name>entitybrokerVersion</name>
+                                    <value>${entitybroker.version}</value>
+                                </parameter>
+                                <parameter>
+                                    <name>pollVersion</name>
+                                    <value>${poll.version}</value>
+                                </parameter>
+                                <parameter>
+                                    <name>emailtemplateservice-toolVersion</name>
+                                    <value>${emailtemplateservice-tool.version}</value>
+                                </parameter>
+                                <parameter>
+                                    <name>sakai-axis2Version</name>
+                                    <value>${sakai-axis2.version}</value>
                                 </parameter>
                             </parameters>
                         </transformationSet>
