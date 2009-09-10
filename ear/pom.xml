@@ -21,12 +21,6 @@
     </parent>
 
     <!--
-        NOTE: sakai projects are not lockstep versions anymore, it is likely that using a
-        single version will not work much longer, this is too fragile and a better method
-        is needed -AZ
-    -->
-
-    <!--
         determine which WARs to include in the EAR file by adding/removing them as a
         dependency below
     -->
