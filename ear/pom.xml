@@ -16,7 +16,7 @@
     <parent>
         <artifactId>was</artifactId>
         <groupId>com.ibm</groupId>
-        <version>2.6.1</version>
+        <version>2.6-SNAPSHOT</version>
     </parent>
 
     <!--
@@ -33,169 +33,169 @@
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>access</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>authn</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>courier</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>dav</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject.entitybroker</groupId>
             <artifactId>direct</artifactId>
-            <version>${sakai.entitybroker.version}</version>
+            <version>${entitybroker.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject.emailtemplateservice</groupId>
             <artifactId>emailtemplateservice-tool</artifactId>
-            <version>${sakai.emailtemplateservice.version}</version>
+            <version>${emailtemplateservice-tool.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>library</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>mailtool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>mercury</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject.osp</groupId>
             <artifactId>osp-common-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject.osp</groupId>
             <artifactId>osp-glossary-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject.osp</groupId>
             <artifactId>osp-jsf-example</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject.osp</groupId>
             <artifactId>osp-jsf-resource</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject.osp</groupId>
             <artifactId>osp-matrix-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject.osp</groupId>
             <artifactId>osp-portal-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject.osp</groupId>
             <artifactId>osp-portal</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject.osp</groupId>
             <artifactId>osp-presentation-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject.osp</groupId>
             <artifactId>osp-wizard-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>podcasts</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>portal-render</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>portal</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject.entitybroker</groupId>
             <artifactId>providers</artifactId>
-            <version>${sakai.entitybroker.version}</version>
+            <version>${entitybroker.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-alias-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-announcement-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-archive-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-assignment-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-authz-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-axis</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
@@ -207,331 +207,331 @@
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-blogger-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-calendar-summary-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-calendar-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-chat-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-citations-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-content-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-fck-connector</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-gradebook-testservice</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-gradebook-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-help-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-jsf-resource</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-login-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-mailarchive-james</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-mailarchive-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-memory-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-message-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-messageforums-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-metaobj-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-news-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-podcasts</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-poll-tool</artifactId>
-            <version>${sakai.poll.version}</version>
+            <version>${poll.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-postem-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-presence-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-presentation-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-profile-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-reports-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-reset-pass</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-rights-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-roster-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-rutgers-linktool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-rwiki-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-sample-tool-jsf</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-sample-tool-servlet</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-scheduler-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-search-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-sections-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-site-manage-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-site-manage-group-helper</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-site-manage-participant-helper</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-site-manage-group-section-role-helper</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-site-pageorder-helper</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-site-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-syllabus-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-tool-tool-su</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-user-tool-admin-prefs</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-user-tool-prefs</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-user-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-usermembership-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-web-tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>samigo</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>savecite</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>tool</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>web</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>wiki</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>xsl-portal</artifactId>
-            <version>${sakai.version}</version>
+            <version>${was.sakai.version}</version>
             <type>war</type>
         </dependency>
 
@@ -599,19 +599,19 @@
                             <parameters>
                                 <parameter>
                                     <name>wasSakaiVersion</name>
-                                    <value>${sakai.version}</value>
+                                    <value>${was.sakai.version}</value>
                                 </parameter>
                                 <parameter>
                                     <name>entitybrokerVersion</name>
-                                    <value>${sakai.entitybroker.version}</value>
+                                    <value>${entitybroker.version}</value>
                                 </parameter>
                                 <parameter>
                                     <name>pollVersion</name>
-                                    <value>${sakai.poll.version}</value>
+                                    <value>${poll.version}</value>
                                 </parameter>
                                 <parameter>
                                     <name>emailtemplateservice-toolVersion</name>
-                                    <value>${sakai.emailtemplateservice.version}</value>
+                                    <value>${emailtemplateservice-tool.version}</value>
                                 </parameter>
                                 <parameter>
                                     <name>sakai-axis2Version</name>
