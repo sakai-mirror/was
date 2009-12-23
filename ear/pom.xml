@@ -52,13 +52,13 @@
         <dependency>
             <groupId>org.sakaiproject.entitybroker</groupId>
             <artifactId>direct</artifactId>
-            <version>1.3.7-SNAPSHOT</version>
+            <version>${sakai.entitybroker.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
             <groupId>org.sakaiproject.emailtemplateservice</groupId>
             <artifactId>emailtemplateservice-tool</artifactId>
-            <version>0.4.0</version>
+            <version>${sakai.emailtemplateservice.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
@@ -154,7 +154,7 @@
         <dependency>
             <groupId>org.sakaiproject.entitybroker</groupId>
             <artifactId>providers</artifactId>
-            <version>1.3.7-SNAPSHOT</version>
+            <version>${sakai.entitybroker.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
@@ -322,7 +322,7 @@
         <dependency>
             <groupId>org.sakaiproject.polls</groupId>
             <artifactId>sakai-poll-tool</artifactId>
-            <version>1.3-SNAPSHOT</version>
+            <version>${sakai.polls.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
@@ -344,9 +344,15 @@
             <type>war</type>
         </dependency>
         <dependency>
-            <groupId>org.sakaiproject</groupId>
-            <artifactId>sakai-profile-tool</artifactId>
-            <version>2.8-SNAPSHOT</version>
+            <groupId>org.sakaiproject.profile</groupId>
+            <artifactId>profile-tool</artifactId>
+            <version>${sakai.profile.version}</version>
+            <type>war</type>
+        </dependency>
+        <dependency>
+            <groupId>org.sakaiproject.profile2</groupId>
+            <artifactId>profile2-tool</artifactId>
+            <version>${sakai.profile2.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
@@ -400,7 +406,7 @@
         <dependency>
             <groupId>org.sakaiproject.scheduler</groupId>
             <artifactId>scheduler-tool</artifactId>
-            <version>2.8-SNAPSHOT</version>
+            <version>${sakai.scheduler.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
