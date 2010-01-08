@@ -339,12 +339,6 @@
         </dependency>
         <dependency>
             <groupId>org.sakaiproject</groupId>
-            <artifactId>sakai-profile-tool</artifactId>
-            <version>2.7-SNAPSHOT</version>
-            <type>war</type>
-        </dependency>
-        <dependency>
-            <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-reports-tool</artifactId>
             <version>2.7-SNAPSHOT</version>
             <type>war</type>
