@@ -321,7 +321,7 @@
         </dependency>
         <dependency>
             <groupId>org.sakaiproject.polls</groupId>
-            <artifactId>sakai-poll-tool</artifactId>
+            <artifactId>polls-tool</artifactId>
             <version>${sakai.polls.version}</version>
             <type>war</type>
         </dependency>
