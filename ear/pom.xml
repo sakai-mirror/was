@@ -193,12 +193,14 @@
             <version>0.1</version>
             <type>war</type>
         </dependency>
+        <!--
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-blogger-tool</artifactId>
             <version>2.8-SNAPSHOT</version>
             <type>war</type>
         </dependency>
+        -->
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-calendar-summary-tool</artifactId>
@@ -343,16 +345,18 @@
             <version>${sakai.profile2.version}</version>
             <type>war</type>
         </dependency>
+        <!--
         <dependency>
             <groupId>org.sakaiproject</groupId>
             <artifactId>sakai-reports-tool</artifactId>
             <version>2.8-SNAPSHOT</version>
             <type>war</type>
         </dependency>
+        -->
         <dependency>
-            <groupId>org.sakaiproject</groupId>
+            <groupId>org.sakaiproject.reset-pass</groupId>
             <artifactId>sakai-reset-pass</artifactId>
-            <version>2.8-SNAPSHOT</version>
+            <version>${sakai.resetpass.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
