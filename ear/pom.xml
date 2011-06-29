@@ -278,9 +278,9 @@
             <type>war</type>
         </dependency>
         <dependency>
-            <groupId>org.sakaiproject</groupId>
+            <groupId>org.sakaiproject.message</groupId>
             <artifactId>sakai-message-tool</artifactId>
-            <version>2.9-SNAPSHOT</version>
+            <version>${sakai.message.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
