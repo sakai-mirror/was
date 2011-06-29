@@ -428,9 +428,9 @@
             <type>war</type>
         </dependency>
         <dependency>
-            <groupId>org.sakaiproject</groupId>
+            <groupId>org.sakaiproject.site</groupId>
             <artifactId>sakai-site-tool</artifactId>
-            <version>2.9-SNAPSHOT</version>
+            <version>${sakai.site.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
