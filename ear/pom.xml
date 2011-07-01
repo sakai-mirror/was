@@ -170,9 +170,9 @@
             <type>war</type>
         </dependency>
         <dependency>
-            <groupId>org.sakaiproject</groupId>
+            <groupId>org.sakaiproject.assignment</groupId>
             <artifactId>sakai-assignment-tool</artifactId>
-            <version>2.9-SNAPSHOT</version>
+            <version>${sakai.assignment.version}</version>
             <type>war</type>
         </dependency>
         <dependency>
@@ -194,13 +194,13 @@
             <type>war</type>
         </dependency>
         <dependency>
-            <groupId>org.sakaiproject</groupId>
+            <groupId>org.sakaiproject.calendar</groupId>
             <artifactId>sakai-calendar-summary-tool</artifactId>
             <version>2.9-SNAPSHOT</version>
             <type>war</type>
         </dependency>
         <dependency>
-            <groupId>org.sakaiproject</groupId>
+            <groupId>org.sakaiproject.calendar</groupId>
             <artifactId>sakai-calendar-tool</artifactId>
             <version>2.9-SNAPSHOT</version>
             <type>war</type>
