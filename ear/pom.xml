@@ -392,7 +392,7 @@
             <type>war</type>
         </dependency>
         <dependency>
-            <groupId>org.sakaiproject</groupId>
+            <groupId>org.sakaiproject.sitemanage</groupId>
             <artifactId>sakai-siteassociation-tool</artifactId>
             <version>2.9-SNAPSHOT</version>
             <type>war</type>
